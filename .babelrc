@@ -1,0 +1,7 @@
+{
+    "presets": [
+      "babel-preset-solid"
+    ],
+    
+    "plugins": ["@babel/transform-runtime","twin", "macros"]
+  }
