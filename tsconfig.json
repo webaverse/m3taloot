@@ -13,8 +13,11 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "preserve",
-    "jsxImportSource": "solid-js"
+    "jsxImportSource": "solid-js",
+    "typeRoots": [
+      "custom_typings"
+    ]
   },
   "files": ["./node_modules/solid-scripts/types/solid-app.d.ts"],
-  "include": ["src"]
+  "include": ["src", "src/assets/js/IScroll.min.js"]
 }
