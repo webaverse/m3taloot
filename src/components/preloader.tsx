@@ -1,4 +1,13 @@
+import $ from 'jquery';
+
+
 export const Preloader = () => {
+    
+    $(document).ready(function() {
+        $(window).on('load', function() {
+            $('.preloader').fadeOut();
+        });
+    });
 
     return (
       <>
