@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "parcel ./src/index.html --open",
-    "build": "parcel build ./src/index.html"
+    "build": "rm -rf dist && parcel build src/index.html -d dist --public-url ./ '.'"
   },
   "dependencies": {
     "@emotion/react": "^11.4.0",

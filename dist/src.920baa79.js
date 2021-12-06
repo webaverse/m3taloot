@@ -40,11 +40,11 @@ var e,t=n(require("@babel/runtime/helpers/typeof"));function n(e){return e&&e.__
 },{"@babel/runtime/helpers/typeof":"b9XL"}],"U5vc":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.PageSectionSlider=void 0;var e=require("solid-js/web"),i=t(require("jquery")),r=t(require("../assets/js/fullpage.min"));function t(e){return e&&e.__esModule?e:{default:e}}const n=(0,e.template)('<div id="fullpage" class="fullpage-default"></div>',2);var l=function(t){var l,o=t.children;return(0,i.default)(document).ready(function(){new r.default(".fullpage-default",{licenseKey:" C7F41B00-5E824594-9A5EFB99-B556A3D5",anchors:["hero","concept","megaglam","mint"],menu:"#nav",lazyLoad:!0,navigation:!0,navigationPosition:"right",scrollOverflow:!0,responsiveWidth:768,responsiveHeight:600,responsiveSlides:!0})}),l=n.cloneNode(!0),(0,e.insert)(l,o),l};exports.PageSectionSlider=l;
 },{"solid-js/web":"j594","jquery":"juYr","../assets/js/fullpage.min":"tvtW"}],"YoVW":[function(require,module,exports) {
-module.exports="/concept_banner_new.0487e41a.jpeg";
+module.exports="concept_banner_new.0487e41a.jpeg";
 },{}],"UXBY":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.Concept=void 0;var e=require("solid-js/web"),t=r(require("../../assets/media/concept_banner_new.jpeg"));function r(e){return e&&e.__esModule?e:{default:e}}const s=(0,e.template)('<div class="section animated-row" data-section="concept"><img class="rounded" alt=""></div>',3);var o=function(){return r=s.cloneNode(!0),o=r.firstChild,(0,e.setAttribute)(o,"src",t.default),r;var r,o};exports.Concept=o;
 },{"solid-js/web":"j594","../../assets/media/concept_banner_new.jpeg":"YoVW"}],"Mra0":[function(require,module,exports) {
-module.exports="/glam_placeholder.a92cfe22.png";
+module.exports="glam_placeholder.a92cfe22.png";
 },{}],"fGt4":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.Megaglam=void 0;var e=require("solid-js/web"),t=a(require("../../assets/media/glam_placeholder.png"));function a(e){return e&&e.__esModule?e:{default:e}}const r=(0,e.template)('<div class="section animated-row" data-section="megaglam"><img class="rounded" alt=""></div>',3);var s=function(){return a=r.cloneNode(!0),s=a.firstChild,(0,e.setAttribute)(s,"src",t.default),a;var a,s};exports.Megaglam=s;
 },{"solid-js/web":"j594","../../assets/media/glam_placeholder.png":"Mra0"}],"vMRA":[function(require,module,exports) {
@@ -52,9 +52,9 @@ module.exports="/glam_placeholder.a92cfe22.png";
 },{"solid-js/web":"j594"}],"WJwQ":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.Top=void 0;var e=require("solid-js/web");const t=(0,e.template)('<div class="section animated-row" data-section="hero"><div class="section-inner"><div class="welcome-box"><span class="welcome-first animate" data-animate="fadeInUp">Hello, welcome to</span><h1 class="welcome-title animate" data-animate="fadeInUp">M3TALOOT</h1></div><button class="btn btn-primary">Explore</button></div></div>',12);var a=function(){return t.cloneNode(!0)};exports.Top=a;
 },{"solid-js/web":"j594"}],"Khpd":[function(require,module,exports) {
-module.exports="/mobile_video.a01b6434.mp4";
+module.exports="mobile_video.a01b6434.mp4";
 },{}],"ipVW":[function(require,module,exports) {
-module.exports="/desktop_video.c753807a.mp4";
+module.exports="desktop_video.c753807a.mp4";
 },{}],"TsnJ":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.Video=void 0;var e=require("solid-js/web"),t=o(require("@babel/runtime/helpers/slicedToArray")),i=require("solid-js"),r=o(require("../assets/media/mobile_video.mp4")),d=o(require("../assets/media/desktop_video.mp4"));function o(e){return e&&e.__esModule?e:{default:e}}const a=(0,e.template)('<video autoplay="" muted="" loop=""><source></video>',3);var s=function(){var o,s,u=(0,i.createSignal)(""),l=(0,t.default)(u,2),n=l[0],v=l[1],c=(0,i.createSignal)(""),f=(0,t.default)(c,2),m=f[0],p=f[1],_=window.matchMedia("(max-width: 480px)");return p("video/mp4"),_.matches?v(r.default):v(d.default),window.addEventListener("resize",function(){window.matchMedia("(max-width: 480px)").matches?v(r.default):v(d.default)}),o=a.cloneNode(!0),s=o.firstChild,(0,e.effect)(function(t){var i=n(),r=m();return i!==t._v$&&(0,e.setAttribute)(s,"src",t._v$=i),r!==t._v$2&&(0,e.setAttribute)(s,"type",t._v$2=r),t},{_v$:void 0,_v$2:void 0}),o};exports.Video=s;
 },{"solid-js/web":"j594","@babel/runtime/helpers/slicedToArray":"HETk","solid-js":"FcAt","../assets/media/mobile_video.mp4":"Khpd","../assets/media/desktop_video.mp4":"ipVW"}],"AGWC":[function(require,module,exports) {
@@ -81,4 +81,4 @@ var e,t=n(require("@babel/runtime/helpers/typeof"));function n(e){return e&&e.__
 },{"solid-js/web":"j594","emotion-solid":"utMe","../../utils/with-defaults":"PVul","../preloader":"YtbU","../header":"YGgk","jquery":"juYr","../fullpage":"U5vc","../slides/concept":"UXBY","../slides/megaglam":"fGt4","../slides/mint":"vMRA","../slides/top":"WJwQ","../video":"TsnJ","../../assets/css/bootstrap.min.css":"AGWC","../../assets/css/fullpage.min.css":"AGWC","../../assets/css/animate.css":"AGWC","../../assets/css/templatemo-style.css":"AGWC","../../assets/css/responsive.css":"AGWC","../../assets/js/bootstrap.min.js":"e5lC","../../assets/js/scrolloverflow":"ojHc","../../assets/js/jquery.inview.min.js":"CCH9","../../assets/js/fullpage.min.js":"tvtW","../../assets/js/custom":"xDVd"}],"zo2T":[function(require,module,exports) {
 "use strict";var e=require("solid-js/web"),r=o(require("@babel/runtime/helpers/slicedToArray")),t=require("solid-js/store"),n=require("./components/landing");function o(e){return e&&e.__esModule?e:{default:e}}var u=function(){var o=(0,t.createStore)({name:"Solid",bold:!0}),u=(0,r.default)(o,2);u[0],u[1];return(0,e.createComponent)(n.UI,{})};(0,e.render)(u,document.getElementById("app"));
 },{"solid-js/web":"j594","@babel/runtime/helpers/slicedToArray":"HETk","solid-js/store":"hVrl","./components/landing":"fqT0"}]},{},["zo2T"], null)
-//# sourceMappingURL=/src.920baa79.js.map
+//# sourceMappingURL=src.920baa79.js.map
